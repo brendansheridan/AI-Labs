@@ -21,9 +21,6 @@ Follow these simple steps to interact with the chatbot:
 
 1. **Enter Your API Key**: You'll need a Google API key for the chatbot to access Google's Generative AI models. Obtain your API key https://makersuite.google.com/app/apikey.
 
-# This is the first API key input; no need to repeat it in the main function.
-api_key = st.text_input("Enter your Google API Key:", type="password", key="api_key_input")
-
 2. **Upload Your Documents**: The system accepts multiple PDF files at once, analyzing the content to provide comprehensive insights.
 
 3. **Submit & Process**: You'll need to now submit the PDF(s) to Gemini in order to understand the content.
@@ -31,9 +28,8 @@ api_key = st.text_input("Enter your Google API Key:", type="password", key="api_
 4. **Ask a Question**: After processing the documents, ask any question related to the content of your uploaded documents for a precise answer.
 """)
 
-
-
-
+# This is the first API key input; no need to repeat it in the main function.
+api_key = st.text_input("Enter your Google API Key:", type="password", key="api_key_input")
 
 def get_pdf_text(pdf_docs):
     text = ""
