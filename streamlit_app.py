@@ -23,7 +23,9 @@ Follow these simple steps to interact with the chatbot:
 
 2. **Upload Your Documents**: The system accepts multiple PDF files at once, analyzing the content to provide comprehensive insights.
 
-3. **Ask a Question**: After processing the documents, ask any question related to the content of your uploaded documents for a precise answer.
+3. **Submit & Process**: You'll need to now submit the PDF(s) to Gemini in order to understand the content.
+
+4. **Ask a Question**: After processing the documents, ask any question related to the content of your uploaded documents for a precise answer.
 """)
 
 
